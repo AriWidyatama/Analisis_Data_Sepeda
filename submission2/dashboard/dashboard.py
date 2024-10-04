@@ -1,7 +1,8 @@
-import matplotlib.pyplot as plt
+
 import pandas as pd
 import streamlit as st
 import numpy as np
+import matplotlib.pyplot as plt
 
 day_df = pd.read_csv("dashboard/days.csv")
 hour_df = pd.read_csv("dashboard/hours.csv")
