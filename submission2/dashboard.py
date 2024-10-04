@@ -3,8 +3,8 @@ import pandas as pd
 import streamlit as st
 import numpy as np
 
-day_df = pd.read_csv("dashboard/days.csv")
-hour_df = pd.read_csv("dashboard/hours.csv")
+day_df = pd.read_csv("days.csv")
+hour_df = pd.read_csv("hours.csv")
 
 st.header('Projeck Analisis Data Sewa Sepeda :sparkles:')
 
